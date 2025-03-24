@@ -1,6 +1,6 @@
 <?php get_header() ?>
 
-<header>prout j'aime les chiens</header>
+<header>prout j'aime les chiens et les chats</header>
 
 <main>hndcnv,</main>
 
