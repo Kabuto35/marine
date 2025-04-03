@@ -2,6 +2,6 @@
 
 <header>prout j'aime les chiens et les chats</header>
 
-<main>hndcnv,</main>
+<main>hndcnv, et mon chats</main>
 
 <?php get_footer() ?>
