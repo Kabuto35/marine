@@ -4,7 +4,6 @@
         <ul>
             <a href="" class="logo">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Logo-Ryan-Murphy-production-02-02.svg" alt="Image">
-
             </a>
         </ul>
         <nav>
@@ -14,6 +13,15 @@
                 <li><a href=""><?php echo "Contact"; ?></a></li>
             </ul>
         </nav>
+        <ul>
+            <h1><?php echo "Ryan Murphy<br>Production"; ?></h1>
+        </ul>
     </header>
+
+    <body>
+        <section></section>
+        <section></section>
+        <section></section>
+    </body>
 
 <?php get_footer() ?>
