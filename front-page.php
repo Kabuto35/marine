@@ -21,7 +21,12 @@
     <body>
         <section class="Cinematic Shows">
             <ul><h2><?php echo "Ryan-Murphy-Cinematic-shows"; ?></h2></ul>
-            <ul><video src=""><?php echo "Emplacement de la vidéo"; ?></video>Votre navigauteur ne supporte pas la vidéo</ul>
+            <ul>
+                <video width="640" height="360" controls>
+                    <source src="<?php echo get_template_directory_uri(); ?>/videos/ma-video.mp4" type="video/mp4">
+                    Votre navigateur ne supporte pas la vidéo.
+                </video>
+            </ul>
         </section>
         <section></section>
         <section></section>
