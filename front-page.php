@@ -9,9 +9,9 @@
         </ul>
         <nav>
             <ul>
-                <li><a href="">Accueil</a></li>
-                <li><a href="">galerie</a></li>
-                <li><a href="">contact</a></li>
+                <li><a href=""><?php echo "Accueil"; ?></a></li>
+                <li><a href=""><?php echo "Galerie"; ?></a></li>
+                <li><a href=""><?php echo "Contact"; ?></a></li>
             </ul>
         </nav>
     </header>
