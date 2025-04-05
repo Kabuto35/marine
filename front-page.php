@@ -19,7 +19,10 @@
     </header>
 
     <body>
-        <section></section>
+        <section class="Cinematic Shows">
+            <ul><h2><?php echo "Ton texte ici"; ?></h2></ul>
+            <ul><video src=""><?php echo "Ton texte ici"; ?>C'est ici que sera placé la vidéo</video></ul>
+        </section>
         <section></section>
         <section></section>
     </body>
