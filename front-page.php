@@ -2,8 +2,8 @@
 
     <header>
         <ul>
-            <a href="assets/images/Logo-Ryan-Murphy-production-02-02.svg" class="logo">
-            <img src="<?php echo get_template_directory_uri(); ?>assets/images/Logo-Ryan-Murphy-production-02-02" alt="Image">
+            <a href="" class="logo">
+            <img src="<?php echo get_template_directory_uri(); ?>assets/images/Logo-Ryan-Murphy-production-02-02.svg" alt="Image">
 
             </a>
         </ul>
