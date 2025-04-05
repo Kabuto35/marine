@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="en" dir="ltr">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css">
 
 
 <head>
