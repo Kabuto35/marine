@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="en" dir="ltr">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css">
+
 
 
 <head>
@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/minireset.min.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css">
 
     <?php wp_head(); ?>
 
