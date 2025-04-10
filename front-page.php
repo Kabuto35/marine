@@ -1,35 +1,43 @@
 <?php get_header() ?>
 
-    <header>
-        <ul class="box1">
-            <a href="" class="logo">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Logo-Ryan-Murphy-production-02-02.svg" alt="Image">
-            </a>
-        </ul>
-        <nav>
+   <header>
+     <nav>
+        <ul>
             <ul>
-                <li><a href=""><?php echo "Accueil"; ?></a></li>
-                <li><a href=""><?php echo "Galerie"; ?></a></li>
-                <li><a href=""><?php echo "Contact"; ?></a></li>
+                <li></li>
             </ul>
-        </nav>
-        <ul class="titre-principal">
-            <h1><?php echo "Ryan Murphy<br>Production"; ?></h1>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
         </ul>
-    </header>
+     </nav>
+     <div>
+        <ul>
+            <li><h1></h1></li>
+        </ul>
+     </div>
+   </header>
 
-    <body>
-        <section class="Cinematic Shows">
-            <ul><h2><?php echo "Ryan-Murphy-Cinematic-shows"; ?></h2></ul>
-            <ul>
-                <video width="640" height="360" controls>
-                    <source src="<?php echo get_template_directory_uri(); ?>/videos/ma-video.mp4" type="video/mp4">
-                    Votre navigateur ne supporte pas la vidéo.
-                </video>
-            </ul>
-        </section>
-        <section></section>
-        <section></section>
-    </body>
+   <body>
+    <div class="container_grotesquerie">
+
+    </div>
+    <div class="container_monstre">
+
+    </div>
+    <div class="container_american_horror_story">
+
+    </div>
+    <div class="container_ratched">
+
+    </div>
+    <div class="container_scream_queens">
+
+    </div>
+   </body>
 
 <?php get_footer() ?>
