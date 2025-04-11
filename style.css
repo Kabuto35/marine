@@ -19,11 +19,8 @@ header nav {
 header .menue {
   font-family: "bebas neue", sans-serif;
   font-size: 35px;
-}
-header .menue menu {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+  text-decoration: none;
+  color: black;
 }
 header .titre_principal {
   font-family: "bebas neue", sans-serif;
