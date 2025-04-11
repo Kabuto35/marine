@@ -15,11 +15,11 @@
                 </li>
             </ul>
             <ul class="menue">
-                <li><?php echo get_field('grotesquerie'); ?></li>
-                <li><?php echo get_field('monstre'); ?></li>
-                <li><?php echo get_field('american_horror_stories'); ?></li>
-                <li><?php echo get_field('ratched'); ?></li>
-                <li><?php echo get_field('screem_queen'); ?></li>
+                <li><a href=""><?php echo get_field('grotesquerie'); ?></a></li>
+                <li><a href=""><?php echo get_field('monstre'); ?></a></li>
+                <li><a href=""><?php echo get_field('american_horror_stories'); ?></a></li>
+                <li><a href=""><?php echo get_field('ratched'); ?></a></li>
+                <li><a href=""><?php echo get_field('screem_queen'); ?></a></li>
             </ul>
         </ul>
      </nav>
