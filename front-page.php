@@ -14,7 +14,7 @@
 
                 </li>
             </ul>
-            <ul>
+            <ul class="menu">
                 <li><?php echo get_field('grotesquerie'); ?></li>
                 <li><?php echo get_field('monstre'); ?></li>
                 <li><?php echo get_field('american_horror_stories'); ?></li>
@@ -23,7 +23,7 @@
             </ul>
         </ul>
      </nav>
-     <div>
+     <div class="titre_principal">
         <ul>
             <li><h1><?php echo nl2br(get_field('titre_principal')); ?></h1></li>
         </ul>
