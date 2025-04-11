@@ -14,7 +14,7 @@
 
                 </li>
             </ul>
-            <ul class="menu">
+            <ul class="menue">
                 <li><?php echo get_field('grotesquerie'); ?></li>
                 <li><?php echo get_field('monstre'); ?></li>
                 <li><?php echo get_field('american_horror_stories'); ?></li>
