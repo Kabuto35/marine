@@ -4,23 +4,28 @@
      <nav>
         <ul>
             <ul>
-                <li><?php
-                        echo '<img src="chemin/vers/ton-image.jpg" alt="Description de l\'image">';
-                    ?>
+                <li>
+                <?php
+                $image_url = get_field('logo');
+                if ($image_url) {
+                    echo '<img src="' . esc_url($image_url) . '" alt="Image ACF">';
+                }
+                ?>
+
                 </li>
             </ul>
             <ul>
-                <li><?php echo get_field(''); ?></li>
-                <li><?php echo get_field(''); ?></li>
-                <li><?php echo get_field(''); ?></li>
-                <li><?php echo get_field(''); ?></li>
-                <li><?php echo get_field(''); ?></li>
+                <li><?php echo get_field('grotesquerie'); ?></li>
+                <li><?php echo get_field('monstre'); ?></li>
+                <li><?php echo get_field('american_horror_stories'); ?></li>
+                <li><?php echo get_field('ratched'); ?></li>
+                <li><?php echo get_field('screem_queen'); ?></li>
             </ul>
         </ul>
      </nav>
      <div>
         <ul>
-            <li><h1><?php echo nl2br(get_field('')); ?></h1></li>
+            <li><h1><?php echo nl2br(get_field('titre_principal')); ?></h1></li>
         </ul>
      </div>
    </header>
