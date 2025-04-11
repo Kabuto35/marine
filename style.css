@@ -16,6 +16,9 @@ header {
 header nav {
   background-color: rgba(255, 255, 255, 0.5);
 }
+header .menue {
+  font-family: "bebas neue", sans-serif;
+}
 header .titre_principal {
   font-family: "bebas neue", sans-serif;
   font-size: 50px;
