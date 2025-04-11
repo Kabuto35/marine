@@ -22,6 +22,7 @@ header .menue {
 }
 header .menue li a {
   text-decoration: none;
+  color: black;
 }
 header .titre_principal {
   font-family: "bebas neue", sans-serif;
