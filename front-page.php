@@ -20,7 +20,7 @@
                 <li><?php echo get_field('american_horror_stories'); ?></li>
                 <li><?php echo get_field('ratched'); ?></li>
                 <li><?php echo get_field('screem_queen'); ?></li>
-                <li>pain aux chocolats</li>
+                <li>pains aux chocolats</li>
             </ul>
         </ul>
      </nav>
