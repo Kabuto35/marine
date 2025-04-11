@@ -3,7 +3,7 @@
    <header>
      <nav>
         <ul>
-            <ul>
+            <ul class="logo">
                 <li>
                 <?php
                 $image_url = get_field('logo');
