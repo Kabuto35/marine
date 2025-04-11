@@ -4,7 +4,10 @@
      <nav>
         <ul>
             <ul>
-                <li></li>
+                <li><?php
+                        echo '<img src="chemin/vers/ton-image.jpg" alt="Description de l\'image">';
+                    ?>
+                </li>
             </ul>
             <ul>
                 <li></li>
