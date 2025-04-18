@@ -1,46 +1,61 @@
 header
+    
     background-image: url('assets/images/grotesquerie-saison-1-logo-1024x688.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 
     nav
-        background-color: rgb(255, 255, 255, 0.5);
+        background-color: rgba(255, 255, 255, 0.274);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+        
+        
 
 
     .logo
 
     .menue
+        display: flex;
+        align-items: center;
+        gap: 2rem;
         font-family: 'bebas neue', sans-serif;
+        color: white;
         font-size: 30px;
         
         li
             a
                 text-decoration: none;
-                color: black;
+                color: white;
 
     .titre_principal
+
             font-family: 'bebas neue', sans-serif;
-            font-size: 50px;
             text-align: center;
+            align-items: center;
+            font-size: 60px;
             color: white;
+            position: absolute;
+            flex: 1;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
             
         
 
 
 body
+    background-color: #0D0039;
 
-    .container_grotesquerie
-        background-color: #0D0039;
-
-    .container_monstre
-        background-color: #001E44;
     
-    .container_american_horror_story
-        background-color: #370101;
-    
-    .container_ratched
-        background-color: #00261F;
-    
-    .container_scream_queens
-        background-color:#00383D; 
 
 
 

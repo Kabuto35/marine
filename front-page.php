@@ -2,9 +2,8 @@
 
    <header>
      <nav>
-        <ul>
-            <ul class="logo">
-                <li>
+            <div class="logo">
+                
                 <?php
                 $image_url = get_field('logo');
                 if ($image_url) {
@@ -12,8 +11,8 @@
                 }
                 ?>
 
-                </li>
-            </ul>
+                
+            </div>
             <ul class="menue">
                 <li><a href="" class="mon_lien"><?php echo get_field('grotesquerie'); ?></a></li>
                 <li><a href="" class="mon_lien_2"><?php echo get_field('monstre'); ?></a></li>
@@ -21,7 +20,7 @@
                 <li><a href="" class="mon_lien_4"><?php echo get_field('ratched'); ?></a></li>
                 <li><a href="" class="mon_lien_5"><?php echo get_field('screem_queen'); ?></a></li>
             </ul>
-        </ul>
+        
      </nav>
      <div class="titre_principal">
         <ul>
@@ -31,91 +30,9 @@
    </header>
 
    <body>
-    <div class="container_grotesquerie">
-        <div></div>
-        <div>
-            <ul>
-                <li>
-                    <?php
-                    $video_path = "videos/ma_video.mp4";
-                    ?>
-
-                    <video width="640" height="360" controls>
-                        <source src="<?php echo $video_path; ?>" type="video/mp4">
-                        Votre navigateur ne supporte pas la vidéo HTML5.
-                    </video>
-                </li>
-            </ul>
-        </div>
+    <div class="accueil" id="accueil">
     </div>
-    <div class="container_monstre">
-        <div>
-            <ul>
-                <li>
-                    <?php
-                        $video_path = "videos/ma_video.mp4";
-                    ?>
-
-                    <video width="640" height="360" controls>
-                        <source src="<?php echo $video_path; ?>" type="video/mp4">
-                        Votre navigateur ne supporte pas la vidéo HTML5.
-                    </video>
-                </li>
-            </ul>
-        </div>
-        <div></div>
-    </div>
-    <div class="container_american_horror_story">
-        <div></div>
-        <div>
-            <ul>
-                <li>
-                    <?php
-                        $video_path = "videos/ma_video.mp4";
-                    ?>
-
-                    <video width="640" height="360" controls>
-                        <source src="<?php echo $video_path; ?>" type="video/mp4">
-                        Votre navigateur ne supporte pas la vidéo HTML5.
-                    </video>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="container_ratched">
-        <div></div>
-        <div>
-            <ul>
-                <li>
-                    <?php
-                            $video_path = "videos/ma_video.mp4";
-                        ?>
-
-                        <video width="640" height="360" controls>
-                            <source src="<?php echo $video_path; ?>" type="video/mp4">
-                            Votre navigateur ne supporte pas la vidéo HTML5.
-                        </video>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="container_scream_queens">
-        <div></div>
-        <div>
-            <ul>
-                <li>
-                    <?php
-                        $video_path = "videos/ma_video.mp4";
-                    ?>
-
-                    <video width="640" height="360" controls>
-                        <source src="<?php echo $video_path; ?>" type="video/mp4">
-                        Votre navigateur ne supporte pas la vidéo HTML5.
-                    </video>
-                </li>
-            </ul>
-        </div>
-    </div>
+        
    </body>
 
 <?php get_footer() ?>
