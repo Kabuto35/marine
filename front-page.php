@@ -21,9 +21,21 @@
    </header>
 
    <body>
-    <div class="accueil" id="accueil">
+    <div class="grotesquerie">
+        <h2><?php echo nl2br(get_field('')); ?></h2>
     </div>
-        
-   </body>
-
+    <div class="biographie">
+        <h2><?php echo nl2br(get_field('')); ?></h2>
+        <div>
+            <h3></h3>
+            <span><?php echo nl2br(get_field('')); ?></span>
+        </div>
+    </div>
+    <div class="monstre">
+        <h2><?php echo nl2br(get_field('')); ?></h2>
+    </div>
+    <div class="american_horror_stories">
+        <h2><?php echo nl2br(get_field('')); ?></h2>
+    </div>
+    </body>
 <?php get_footer() ?>
