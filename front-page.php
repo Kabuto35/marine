@@ -3,22 +3,13 @@
    <header>
      <nav>
             <div class="logo">
-                
-                <?php
-                $image_url = get_field('logo');
-                if ($image_url) {
-                    echo '<img src="' . esc_url($image_url) . '" alt="Image ACF">';
-                }
-                ?>
-
-                
+                <img src="<?php echo get_field('logo'); ?>/assets/images/Logo-Ryan-Murphy-production-02-02.svg" alt="logo">
             </div>
             <ul class="menue">
                 <li><a href="" class="mon_lien"><?php echo get_field('grotesquerie'); ?></a></li>
+                <li><a href="" class="mon_lien_1"><?php echo get_field('ryan'); ?></a></li>
                 <li><a href="" class="mon_lien_2"><?php echo get_field('monstre'); ?></a></li>
                 <li><a href="" class="mon_lien_3"><?php echo get_field('american_horror_stories'); ?></a></li>
-                <li><a href="" class="mon_lien_4"><?php echo get_field('ratched'); ?></a></li>
-                <li><a href="" class="mon_lien_5"><?php echo get_field('screem_queen'); ?></a></li>
             </ul>
         
      </nav>
