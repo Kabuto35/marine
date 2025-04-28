@@ -3,7 +3,7 @@
    <header>
      <nav>
             <div class="logo">
-                <img src="<?php echo get_field('logo'); ?>/assets/images/Logo-Ryan-Murphy-production-02-02.svg" alt="logo">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="Logo MDLC">
             </div>
             <ul class="menue">
                 <li><a href="" class="mon_lien"><?php echo get_field('grotesquerie'); ?></a></li>
