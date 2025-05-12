@@ -99,6 +99,11 @@ footer {
   height: 200px;
   padding: 2rem;
 }
+footer .mon_lien {
+  text-decoration: none;
+  color: white;
+}
+
 .home .header {
   position: relative;
   overflow: hidden;
