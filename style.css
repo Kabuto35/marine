@@ -90,6 +90,7 @@ body .presentation {
 }
 
 footer {
+  background-color: black;
   display: flex;
   text-decoration: none;
   color: white;
@@ -98,8 +99,22 @@ footer {
   width: 100%;
   height: 200px;
   padding: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
 }
 footer .mon_lien {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  text-decoration: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+}
+footer .titre_footer {
   text-decoration: none;
   color: white;
 }
