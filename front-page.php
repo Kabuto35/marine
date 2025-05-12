@@ -25,9 +25,11 @@
     </div>
     <div>
         <h2><?php echo get_field('presentation_titre'); ?></h2>
+        <div class="presentation"><?php echo nl2br(get_field('presentation_texte')); ?></div>
     </div>
     <div>
         <h2><?php echo get_field('galerie_titre'); ?></h2>
+        
     </div>
     </body>
 <?php get_footer() ?>
