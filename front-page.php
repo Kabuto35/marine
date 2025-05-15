@@ -6,9 +6,9 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="Logo MDLC">
             </div>
             <ul class="menue">
-                <li><a href="" class="mon_lien"><?php echo get_field('bande-annonce'); ?></a></li>
-                <li><a href="" class="mon_lien_1"><?php echo get_field('presentation'); ?></a></li>
-                <li><a href="" class="mon_lien_2"><?php echo get_field('galerie'); ?></a></li>
+                <li><a href="#" class="mon_lien"><?php echo get_field('bande-annonce'); ?></a></li>
+                <li><a href="#" class="mon_lien_1"><?php echo get_field('presentation'); ?></a></li>
+                <li><a href="#" class="mon_lien_2"><?php echo get_field('galerie'); ?></a></li>
             </ul>
         
      </nav>
@@ -57,14 +57,4 @@
         
     </div>
     </body>
-        <script>
-                window.addEventListener('scroll', function () {
-                const navbar = document.querySelector('.navbar');
-                if (window.scrollY > 50) {
-                navbar.classList.add('scrolled');
-                } else {
-                navbar.classList.remove('scrolled');
-                }
-                });
-        </script>
 <?php get_footer() ?>
