@@ -2,11 +2,7 @@
 
 <header>
     <nav class="navbar">
-        <button class="burger" id="burger" aria-label="Menu">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
+        <div id="burger" class="burger" onclick="toggleMenu()">☰</div>
         <div class="logo">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="Logo MDLC">
         </div>
@@ -78,19 +74,11 @@
             }
         });
     });
-
-    const navbarToggle = document.querySelector('.navbar-toggle');
-    const navbarMenu = document.querySelector('.navbar-menu');
-
-    navbarToggle.addEventListener('click', () => {
-        navbarMenu.classList.toggle('active');
-    });
-
-    const burger = document.querySelector('.burger');
-    const menu = document.querySelector('.menue');
-
-    burger.addEventListener('click', () => {
-        menu.classList.toggle('active');
-    });
+</script>
+<script>
+    function toggleMenu() {
+        const menue = document.getElementById('menue');
+        menue.classList.toggle('active');
+    }
 </script>
 <?php get_footer() ?>
