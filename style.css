@@ -165,10 +165,18 @@ body .container {
   gap: 1rem;
 }
 @media screen and (max-width: 768px) {
-  body .burger {
+  body nav {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-  body .menue {
+  body nav .burger {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body nav .menue {
     flex-direction: column;
     align-items: center;
     width: 100%;
@@ -176,16 +184,28 @@ body .container {
     overflow: hidden;
     transition: max-height 0.3s ease;
   }
-  body .active {
+  body nav .active {
     max-height: 300px;
   }
-  body .menue li {
+  body nav .menue li {
     margin: 1rem 0;
+  }
+  body nav .logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+  }
+  body nav .logo img {
+    display: block;
+    margin: 0 auto;
   }
 }
 @media screen and (min-width: 769px) {
   body .burger {
     display: none;
+    color: white;
   }
   body .menue {
     display: flex !important;

@@ -18,7 +18,7 @@ header
         padding: 1rem
         box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.36)
         width: 100%
-        color: black 
+        color: black
 
     .burger
         display: none
@@ -154,28 +154,47 @@ body
         gap: 1rem
 
     @media screen and (max-width: 768px)
+
         nav
-
-        .burger
             display: flex
-
-        .menue
             flex-direction: column
             align-items: center
-            width: 100%
-            max-height: 0
-            overflow: hidden
-            transition: max-height 0.3s ease
+            justify-content: center
 
-        .active
-            max-height: 300px
+            .burger
+                display: flex
+                flex-direction: column
+                align-items: center
 
-        .menue li
-            margin: 1rem 0
+            .menue
+                flex-direction: column
+                align-items: center
+                width: 100%
+                max-height: 0
+                overflow: hidden
+                transition: max-height 0.3s ease
+
+            .active
+                max-height: 300px
+
+            .menue li
+                margin: 1rem 0
+
+            .logo
+                width: 100%
+                display: flex
+                justify-content: center
+                align-items: center
+                margin: 1rem 0
+
+                img
+                    display: block
+                    margin: 0 auto
 
     @media screen and (min-width: 769px)
         .burger
             display: none
+            color: white
 
         .menue
             display: flex !important
