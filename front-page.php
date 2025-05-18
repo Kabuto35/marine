@@ -28,6 +28,7 @@
 <body>
     <div id="bande_annonce">
         <h2><?php echo get_field('titre_bande_annonce'); ?></h2>
+        <h3><wxcvbn,jk;</h3>
     </div>
 
     <h2 id="presentation"><?php echo get_field('presentation_titre'); ?></h2>
