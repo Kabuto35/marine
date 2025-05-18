@@ -46,8 +46,6 @@ header .burger span {
   height: 3px;
   background-color: white;
   display: block;
-  display: flex;
-  align-self: center;
 }
 header .logo img {
   width: 150px;
